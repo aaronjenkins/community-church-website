@@ -170,13 +170,6 @@ nav {
   margin-bottom: 2.5rem;
 }
 
-.section > .container > p:first-of-type:not(.section-subtitle):not(.cta-text) {
-  text-align: center;
-  max-width: 640px;
-  margin: 0 auto 2.5rem;
-  color: var(--color-text-light);
-}
-
 /* ---- INFO CARDS ---- */
 
 .info-cards {
