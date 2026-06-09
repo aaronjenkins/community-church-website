@@ -20,20 +20,9 @@ const config = {
   paypalLink: "https://www.paypal.com/donate/?hosted_button_id=PLACEHOLDER_BUTTON_ID",
 
   // ---- Bulletins ----
-  // The site previews the single "latest" bulletin file, and links to the
-  // whole shared Drive folder for past bulletins.
-  //
-  // latestFileId  = the file ID of the most recent bulletin (update weekly).
-  // folderUrl     = the "anyone with the link" share URL of the bulletins folder.
-  //
-  // To get latestFileId: open the bulletin in Drive, click Share -> Copy link.
-  // The link looks like:
-  //   https://drive.google.com/file/d/1AbCdEfGh.../view?usp=sharing
-  // The part between /d/ and /view is the file ID -> paste it below.
-  bulletins: {
-    latestFileId: "PLACEHOLDER_BULLETIN_FILE_ID",
-    folderUrl: "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID",
-  },
+  // Bulletins are PDFs committed to src/bulletins/ (named MMDDYYYY.pdf).
+  // The site auto-discovers them at build time and shows the newest — no config
+  // here. See src/bulletins/README.md for how to add one.
 
   // ---- Vacation Bible School ----
   vbs: {
