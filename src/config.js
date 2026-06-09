@@ -20,9 +20,9 @@ const config = {
   paypalLink: "https://www.paypal.com/donate/?hosted_button_id=PLACEHOLDER_BUTTON_ID",
 
   // ---- Bulletins ----
-  // Bulletins are PDFs committed to src/bulletins/ (named MMDDYYYY.pdf).
-  // The site auto-discovers them at build time and shows the newest — no config
-  // here. See src/bulletins/README.md for how to add one.
+  // Bulletins are PDFs committed to the top-level bulletins/ folder (named
+  // MMDDYYYY.pdf). The site auto-discovers them at build time and shows the
+  // newest — no config here. See bulletins/README.md for how to add one.
 
   // ---- Vacation Bible School ----
   vbs: {

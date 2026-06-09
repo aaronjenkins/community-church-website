@@ -1,7 +1,7 @@
-// Bulletins are PDFs committed to src/bulletins/ (named MMDDYYYY.pdf).
-// Vite enumerates them at build time, so the client just drops a new PDF in
-// that folder on GitHub — no config edit needed. The UI shows only the newest.
-const pdfs = import.meta.glob("../bulletins/*.pdf", {
+// Bulletins are PDFs committed to the top-level bulletins/ folder (named
+// MMDDYYYY.pdf). Vite enumerates them at build time, so the client just drops a
+// new PDF in that folder on GitHub — no config edit needed. UI shows the newest.
+const pdfs = import.meta.glob("/bulletins/*.pdf", {
   eager: true,
   query: "?url",
   import: "default",

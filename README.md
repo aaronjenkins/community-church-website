@@ -74,7 +74,7 @@ Notes:
 ## Step 3 — Upload it to the website
 
 1. Open the bulletins folder in your web browser (sign in to GitHub if it asks):
-   **[github.com/aaronjenkins/community-church-website/tree/main/src/bulletins](https://github.com/aaronjenkins/community-church-website/tree/main/src/bulletins)**
+   **[github.com/aaronjenkins/community-church-website/tree/main/bulletins](https://github.com/aaronjenkins/community-church-website/tree/main/bulletins)**
 2. Click the **Add file** button (near the top-right), then choose **Upload files**.
 3. Drag your renamed PDF into the box on the page — or click **choose your files** and pick it from your Desktop.
 4. Scroll down and click the green **Commit changes** button.
@@ -96,5 +96,5 @@ That's everything. Within a minute or two the website updates on its own, and yo
 This is a React 19 + Vite 8 single-page app deployed to GitHub Pages (auto-deploy on push to `main`). Live at https://aaronjenkins.github.io/community-church-website/.
 
 - One-time: invite the bulletin editor as a **collaborator** (Settings → Collaborators) so their upload works.
-- `src/components/Bulletins.jsx` uses `import.meta.glob('../bulletins/*.pdf', { eager: true, query: '?url', import: 'default' })` — Vite enumerates + fingerprints the PDFs at build time, so a new upload is picked up by the Pages build automatically with no config edit. Sort: filename `MMDDYYYY` → `Date`, newest first.
+- `src/components/Bulletins.jsx` uses `import.meta.glob('/bulletins/*.pdf', { eager: true, query: '?url', import: 'default' })` — Vite enumerates + fingerprints the PDFs at build time, so a new upload is picked up by the Pages build automatically with no config edit. Sort: filename `MMDDYYYY` → `Date`, newest first.
 - Local dev: `npm install`, then `npm run dev` (dev server), `npm run build` (production build), `npm run lint`.
