@@ -11,6 +11,8 @@ function Navbar() {
         <ul className={`nav-links${open ? " open" : ""}`}>
           <li><a href="#about" onClick={() => setOpen(false)}>About</a></li>
           <li><a href="#sermons" onClick={() => setOpen(false)}>Sermons</a></li>
+          <li><a href="#bulletins" onClick={() => setOpen(false)}>Bulletins</a></li>
+          <li><a href="#vbs" onClick={() => setOpen(false)}>VBS</a></li>
           <li><a href="#events" onClick={() => setOpen(false)}>Events</a></li>
           <li><a href="#connect" onClick={() => setOpen(false)}>Connect</a></li>
           <li><a href="#donate" className="btn-donate" onClick={() => setOpen(false)}>Donate</a></li>

@@ -19,6 +19,35 @@ const config = {
   // PLACEHOLDER: Replace with your actual PayPal hosted button ID
   paypalLink: "https://www.paypal.com/donate/?hosted_button_id=PLACEHOLDER_BUTTON_ID",
 
+  // ---- Bulletins ----
+  // The site previews the single "latest" bulletin file, and links to the
+  // whole shared Drive folder for past bulletins.
+  //
+  // latestFileId  = the file ID of the most recent bulletin (update weekly).
+  // folderUrl     = the "anyone with the link" share URL of the bulletins folder.
+  //
+  // To get latestFileId: open the bulletin in Drive, click Share -> Copy link.
+  // The link looks like:
+  //   https://drive.google.com/file/d/1AbCdEfGh.../view?usp=sharing
+  // The part between /d/ and /view is the file ID -> paste it below.
+  bulletins: {
+    latestFileId: "PLACEHOLDER_BULLETIN_FILE_ID",
+    folderUrl: "https://drive.google.com/drive/folders/PLACEHOLDER_FOLDER_ID",
+  },
+
+  // ---- Vacation Bible School ----
+  vbs: {
+    title: "Vacation Bible School",
+    dates: "June 23–27, 2026",
+    time: "9:00 AM – 12:00 PM",
+    ages: "Ages 4 through 5th grade",
+    description:
+      "A week of games, crafts, music, and Bible stories for kids in our community. " +
+      "It's free, it's a blast, and all are welcome — bring a friend!",
+    registerUrl: "mailto:info@fbcrisingsun.example?subject=VBS%20Registration",
+    registerLabel: "Register / Ask a Question",
+  },
+
   // Upcoming events
   events: [
     {

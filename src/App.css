@@ -368,3 +368,25 @@ footer {
     max-width: 340px;
   }
 }
+
+/* ---- BULLETINS ---- */
+
+.bulletin-embed {
+  width: 100%;
+  max-width: 600px;
+  height: 780px;
+  margin: 0 auto 1.5rem;
+}
+
+.bulletin-embed iframe {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #e0dcd4;
+  border-radius: 8px;
+}
+
+@media (max-width: 700px) {
+  .bulletin-embed {
+    height: 70vh;
+  }
+}
