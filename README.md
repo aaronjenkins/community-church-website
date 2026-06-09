@@ -10,14 +10,6 @@ The website automatically shows the newest bulletin — you don't have to touch 
 
 ---
 
-## Before your first time (one-time setup)
-
-You need a **free GitHub account**, and you need to be invited to the church website. Aaron will send you an invitation by email — click the link in it and accept. Once that's done, you won't have to do it again.
-
-- Don't have a GitHub account yet? Go to **github.com**, click **Sign up**, and follow the prompts. It's free.
-
----
-
 ## Step 1 — Save your bulletin as a PDF
 
 You'll make a PDF copy of your Word document. (Your original Word file stays exactly as it is — this just makes a second copy in PDF form.)
@@ -117,7 +109,7 @@ To change wording:
 > Tip: only edit what's between the `"quotes"`. For example, change
 > `"tagline": "Join us every Sunday at 10:00 AM"` to
 > `"tagline": "Join us every Sunday at 9:30 AM"`. If a change ever breaks the
-> page, undo it by editing the file back, or ask Aaron.
+> page, undo it by editing the file back
 
 ## For the developer
 
