@@ -75,9 +75,18 @@ Notes:
 
 1. Open the bulletins folder in your web browser (sign in to GitHub if it asks):
    **[github.com/aaronjenkins/community-church-website/tree/main/bulletins](https://github.com/aaronjenkins/community-church-website/tree/main/bulletins)**
-2. Click the **Add file** button (near the top-right), then choose **Upload files**.
-3. Drag your renamed PDF into the box on the page — or click **choose your files** and pick it from your Desktop.
-4. Scroll down and click the green **Commit changes** button.
+
+2. Click the **Add file** button near the top-right.
+
+   ![The Add file button at the top-right of the bulletins folder](docs/images/upload-1-add-file.png)
+
+3. Choose **Upload files** from the menu that appears.
+
+   ![Upload files option in the Add file menu](docs/images/upload-2-upload-files.png)
+
+4. Drag your renamed PDF into the box on the page — or click **choose your files** and pick it from your Desktop. Then scroll down and click the green **Commit changes** button.
+
+   ![Drag the PDF into the upload box, then click the green Commit changes button](docs/images/upload-3-commit.png)
 
 That's everything. Within a minute or two the website updates on its own, and your new bulletin shows up on the **Bulletins** tab. Refresh the page if you don't see it right away.
 
