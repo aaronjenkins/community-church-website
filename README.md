@@ -91,10 +91,30 @@ That's everything. Within a minute or two the website updates on its own, and yo
 
 ---
 
+## Changing the website's wording
+
+All the text on the site — the church name, service times, address, the About
+paragraph, event list, VBS details, button labels, and so on — lives in one
+file: **`content.json`** at the top of the repository.
+
+To change wording:
+
+1. Open **[content.json](https://github.com/aaronjenkins/community-church-website/blob/main/content.json)** on GitHub.
+2. Click the **pencil icon** (Edit) in the top-right.
+3. Change the text **inside the quotation marks** only — don't remove the quotes,
+   commas, or curly braces around them.
+4. Scroll down and click **Commit changes**. The site updates in a minute or two.
+
+> Tip: only edit what's between the `"quotes"`. For example, change
+> `"tagline": "Join us every Sunday at 10:00 AM"` to
+> `"tagline": "Join us every Sunday at 9:30 AM"`. If a change ever breaks the
+> page, undo it by editing the file back, or ask Aaron.
+
 ## For the developer
 
 This is a React 19 + Vite 8 single-page app deployed to GitHub Pages (auto-deploy on push to `main`). Live at https://aaronjenkins.github.io/community-church-website/.
 
 - One-time: invite the bulletin editor as a **collaborator** (Settings → Collaborators) so their upload works.
+- All site copy lives in the top-level `content.json`; `src/config.js` is a thin loader (`import content from "../content.json"`) and every component reads strings from it. Add a string to `content.json` + reference `config.*` in the component — no hardcoded user-facing text in components.
 - `src/components/Bulletins.jsx` uses `import.meta.glob('/bulletins/*.pdf', { eager: true, query: '?url', import: 'default' })` — Vite enumerates + fingerprints the PDFs at build time, so a new upload is picked up by the Pages build automatically with no config edit. Sort: filename `MMDDYYYY` → `Date`, newest first.
 - Local dev: `npm install`, then `npm run dev` (dev server), `npm run build` (production build), `npm run lint`.

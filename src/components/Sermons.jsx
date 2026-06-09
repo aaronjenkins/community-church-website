@@ -30,8 +30,8 @@ function Sermons() {
   return (
     <section id="sermons" className="section section-alt">
       <div className="container">
-        <h2>Watch Our Sermons</h2>
-        <p className="section-subtitle">Catch up on recent messages or watch live on Sundays.</p>
+        <h2>{config.sermons.heading}</h2>
+        <p className="section-subtitle">{config.sermons.subtitle}</p>
         <div className="video-embed">
           {videoId ? (
             <iframe
@@ -43,16 +43,16 @@ function Sermons() {
             />
           ) : error ? (
             <p style={{ textAlign: "center", padding: "2rem" }}>
-              Unable to load latest video.{" "}
+              {config.sermons.errorText}{" "}
               <a href={config.youtube} target="_blank" rel="noopener noreferrer">
-                Watch on YouTube
+                {config.sermons.errorLink}
               </a>
             </p>
           ) : null}
         </div>
         <p className="cta-text">
           <a href={config.youtube} target="_blank" rel="noopener noreferrer">
-            Visit our YouTube Channel &rarr;
+            {config.sermons.cta}
           </a>
         </p>
       </div>

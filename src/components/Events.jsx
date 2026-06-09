@@ -4,10 +4,10 @@ function Events() {
   return (
     <section id="events" className="section">
       <div className="container">
-        <h2>Upcoming Events</h2>
-        <p className="section-subtitle">Mark your calendar and join us.</p>
+        <h2>{config.events.heading}</h2>
+        <p className="section-subtitle">{config.events.subtitle}</p>
         <div className="events-list">
-          {config.events.map((event, i) => (
+          {config.events.list.map((event, i) => (
             <div className="event-item" key={i}>
               <div className="event-date">
                 <span className="month">{event.month}</span>

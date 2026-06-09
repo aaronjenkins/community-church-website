@@ -11,16 +11,16 @@ function VBS() {
 
         <div className="info-cards">
           <div className="card">
-            <h3>When</h3>
+            <h3>{vbs.whenLabel}</h3>
             <p>{vbs.dates}<br />{vbs.time}</p>
           </div>
           <div className="card">
-            <h3>Who</h3>
+            <h3>{vbs.whoLabel}</h3>
             <p>{vbs.ages}</p>
           </div>
           <div className="card">
-            <h3>Cost</h3>
-            <p>Free &mdash; everyone welcome</p>
+            <h3>{vbs.costLabel}</h3>
+            <p>{vbs.costValue}</p>
           </div>
         </div>
 

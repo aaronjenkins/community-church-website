@@ -9,8 +9,8 @@ function Connect() {
   return (
     <section id="connect" className="section section-alt">
       <div className="container">
-        <h2>Connect With Us</h2>
-        <p className="section-subtitle">See what's happening on our Facebook page.</p>
+        <h2>{config.connect.heading}</h2>
+        <p className="section-subtitle">{config.connect.subtitle}</p>
         <div className="facebook-embed">
           <iframe
             src={fbEmbedUrl}

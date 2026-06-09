@@ -1,3 +1,5 @@
+import config from "../config";
+
 // Bulletins are PDFs committed to the top-level bulletins/ folder (named
 // MMDDYYYY.pdf). Vite enumerates them at build time, so the client just drops a
 // new PDF in that folder on GitHub — no config edit needed. UI shows the newest.
@@ -27,6 +29,7 @@ const bulletins = Object.entries(pdfs)
 const latest = bulletins[0] || null;
 
 function Bulletins() {
+  const t = config.bulletins;
   const dateLabel = latest?.date
     ? latest.date.toLocaleDateString("en-US", {
         weekday: "long",
@@ -39,11 +42,9 @@ function Bulletins() {
   return (
     <section id="bulletins" className="section">
       <div className="container">
-        <h2>Weekly Bulletin</h2>
+        <h2>{t.heading}</h2>
         <p className="section-subtitle">
-          {dateLabel
-            ? `This week's bulletin — ${dateLabel}`
-            : "This week's announcements, schedule, and prayer list."}
+          {dateLabel ? `${t.subtitlePrefix}${dateLabel}` : t.subtitleFallback}
         </p>
 
         <div className="bulletin-embed">
@@ -54,7 +55,7 @@ function Bulletins() {
             />
           ) : (
             <p style={{ textAlign: "center", padding: "2rem" }}>
-              This week's bulletin will appear here soon.
+              {t.empty}
             </p>
           )}
         </div>
@@ -62,7 +63,7 @@ function Bulletins() {
         {latest && (
           <p className="cta-text">
             <a href={latest.url} target="_blank" rel="noopener noreferrer">
-              Open bulletin in a new tab &rarr;
+              {t.openLink}
             </a>
           </p>
         )}

@@ -1,0 +1,99 @@
+{
+  "churchName": "First Baptist Church of Rising Sun",
+  "tagline": "Join us every Sunday at 10:00 AM",
+
+  "serviceTime": "10:00 AM",
+  "serviceDay": "Sunday",
+  "address": "123 Faith Avenue\nRising Sun, MD 21911",
+  "email": "info@fbcrisingsun.example",
+  "phone": "(555) 123-4567",
+
+  "youtube": "https://www.youtube.com/@firstbaptistchurchofrising6393",
+  "youtubeHandle": "firstbaptistchurchofrising6393",
+  "facebook": "https://www.facebook.com/p/First-Baptist-Church-of-Rising-Sun-100064678211090/",
+  "facebookPageId": "First-Baptist-Church-of-Rising-Sun-100064678211090",
+  "paypalLink": "https://www.paypal.com/donate/?hosted_button_id=PLACEHOLDER_BUTTON_ID",
+
+  "nav": {
+    "about": "About",
+    "sermons": "Sermons",
+    "bulletins": "Bulletins",
+    "vbs": "VBS",
+    "events": "Events",
+    "connect": "Connect",
+    "donate": "Donate"
+  },
+
+  "hero": {
+    "heading": "Welcome Home",
+    "button": "Learn More"
+  },
+
+  "about": {
+    "heading": "About Us",
+    "body": "First Baptist Church of Rising Sun is a welcoming place for everyone. We gather to worship, grow in faith, and serve our community together. Whether you've been walking with God for decades or are just beginning to explore, there's a place for you here.",
+    "worshipCardTitle": "Sunday Worship",
+    "worshipCardText": "10:00 AM every Sunday",
+    "locationCardTitle": "Location",
+    "contactCardTitle": "Contact"
+  },
+
+  "sermons": {
+    "heading": "Watch Our Sermons",
+    "subtitle": "Catch up on recent messages or watch live on Sundays.",
+    "errorText": "Unable to load latest video.",
+    "errorLink": "Watch on YouTube",
+    "cta": "Visit our YouTube Channel →"
+  },
+
+  "bulletins": {
+    "heading": "Weekly Bulletin",
+    "subtitlePrefix": "This week's bulletin — ",
+    "subtitleFallback": "This week's announcements, schedule, and prayer list.",
+    "openLink": "Open bulletin in a new tab →",
+    "empty": "This week's bulletin will appear here soon."
+  },
+
+  "vbs": {
+    "title": "Vacation Bible School",
+    "description": "A week of games, crafts, music, and Bible stories for kids in our community. It's free, it's a blast, and all are welcome — bring a friend!",
+    "whenLabel": "When",
+    "dates": "June 23–27, 2026",
+    "time": "9:00 AM – 12:00 PM",
+    "whoLabel": "Who",
+    "ages": "Ages 4 through 5th grade",
+    "costLabel": "Cost",
+    "costValue": "Free — everyone welcome",
+    "registerUrl": "mailto:info@fbcrisingsun.example?subject=VBS%20Registration",
+    "registerLabel": "Register / Ask a Question"
+  },
+
+  "events": {
+    "heading": "Upcoming Events",
+    "subtitle": "Mark your calendar and join us.",
+    "list": [
+      { "month": "APR", "day": "6", "title": "Sunday Worship Service", "details": "10:00 AM — Main Sanctuary" },
+      { "month": "APR", "day": "9", "title": "Midweek Bible Study", "details": "7:00 PM — Fellowship Hall" },
+      { "month": "APR", "day": "12", "title": "Community Outreach Day", "details": "9:00 AM — Church Parking Lot" },
+      { "month": "APR", "day": "20", "title": "Easter Sunday Celebration", "details": "9:00 AM & 11:00 AM — Main Sanctuary" },
+      { "month": "APR", "day": "26", "title": "Youth Group Cookout", "details": "5:00 PM — Back Field" }
+    ]
+  },
+
+  "connect": {
+    "heading": "Connect With Us",
+    "subtitle": "See what's happening on our Facebook page."
+  },
+
+  "donate": {
+    "heading": "Support Our Mission",
+    "body": "Your generosity helps us serve our community, support families in need, and keep our doors open to all.",
+    "button": "Donate via PayPal"
+  },
+
+  "footer": {
+    "rights": "All rights reserved.",
+    "youtube": "YouTube",
+    "facebook": "Facebook"
+  }
+}

@@ -4,18 +4,15 @@ function Donate() {
   return (
     <section id="donate" className="section section-donate">
       <div className="container">
-        <h2>Support Our Mission</h2>
-        <p>
-          Your generosity helps us serve our community, support families in need,
-          and keep our doors open to all.
-        </p>
+        <h2>{config.donate.heading}</h2>
+        <p>{config.donate.body}</p>
         <a
           href={config.paypalLink}
           className="btn-primary btn-donate-large"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Donate via PayPal
+          {config.donate.button}
         </a>
       </div>
     </section>
