@@ -58,8 +58,8 @@
     "title": "Vacation Bible School",
     "description": "A week of games, crafts, music, and Bible stories for kids in our community. It's free, it's a blast, and all are welcome — bring a friend!",
     "whenLabel": "When",
-    "dates": "June 23–27, 2026",
-    "time": "9:00 AM – 12:00 PM",
+    "dates": "July 5th, 12th, 19th, 26th, 2026",
+    "time": "6:00 PM – 7:30 PM",
     "whoLabel": "Who",
     "ages": "Ages 4 through 5th grade",
     "costLabel": "Cost",
@@ -72,11 +72,12 @@
     "heading": "Upcoming Events",
     "subtitle": "Mark your calendar and join us.",
     "list": [
-      { "month": "APR", "day": "6", "title": "Sunday Worship Service", "details": "10:00 AM — Main Sanctuary" },
-      { "month": "APR", "day": "9", "title": "Midweek Bible Study", "details": "7:00 PM — Fellowship Hall" },
-      { "month": "APR", "day": "12", "title": "Community Outreach Day", "details": "9:00 AM — Church Parking Lot" },
-      { "month": "APR", "day": "20", "title": "Easter Sunday Celebration", "details": "9:00 AM & 11:00 AM — Main Sanctuary" },
-      { "month": "APR", "day": "26", "title": "Youth Group Cookout", "details": "5:00 PM — Back Field" }
+      { "month": "July", "day": "5", "title": "Sunday Morning Bible Study all ages", "details": "9:30 AM — " }
+      { "month": "July", "day": "5", "title": "Sunday Morning Worship", "details": "10:30 AM — Sanctuary" }      
+      { "month": "July", "day": "5", "title": "Vacation Bible Scholl", "details": "6:00 PM — 7:30 PM" },
+      { "month": "July", "day": "7", "title": "Women On Mission", "details": "6:00 PM — Sanctuary" },
+      { "month": "July", "day": "12", "title": "Sunday Morning Worship", "details": "10:30 AM — Main Sanctuary" },
+      { "month": "July", "day": "12", "title": "Sunday Morning Bible Study all ages", "details": "9:30 AM" }
     ]
   },
 
@@ -87,7 +88,7 @@
 
   "donate": {
     "heading": "Support Our Mission",
-    "body": "Your generosity helps us serve our community, support families in need, and keep our doors open to all.",
+    "body": "Your generosity helps us serve our community, support families in need, and spread the Love of Jesus to all.",
     "button": "Donate via PayPal"
   },
 
