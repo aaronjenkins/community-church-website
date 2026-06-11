@@ -72,8 +72,8 @@
     "heading": "Upcoming Events",
     "subtitle": "Mark your calendar and join us.",
     "list": [
-      { "month": "July", "day": "5", "title": "Sunday Morning Bible Study all ages", "details": "9:30 AM — " }
-      { "month": "July", "day": "5", "title": "Sunday Morning Worship", "details": "10:30 AM — Sanctuary" }      
+      { "month": "July", "day": "5", "title": "Sunday Morning Bible Study all ages", "details": "9:30 AM — " },
+      { "month": "July", "day": "5", "title": "Sunday Morning Worship", "details": "10:30 AM — Sanctuary" },      
       { "month": "July", "day": "5", "title": "Vacation Bible Scholl", "details": "6:00 PM — 7:30 PM" },
       { "month": "July", "day": "7", "title": "Women On Mission", "details": "6:00 PM — Sanctuary" },
       { "month": "July", "day": "12", "title": "Sunday Morning Worship", "details": "10:30 AM — Main Sanctuary" },
