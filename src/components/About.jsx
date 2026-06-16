@@ -5,7 +5,7 @@ function About() {
     <section id="about" className="section">
       <div className="container">
         <h2>{config.about.heading}</h2>
-        <p style={{ textAlign: "center", maxWidth: 640, margin: "0 auto 2.5rem", color: "var(--color-text-light)" }}>
+        <p style={{ textAlign: "center", maxWidth: 640, margin: "0 auto 2.5rem", color: "var(--color-text-light)", whiteSpace: "pre-line" }}>
           {config.about.body}
         </p>
         <div className="info-cards">
