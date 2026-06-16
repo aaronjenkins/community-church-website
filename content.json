@@ -64,8 +64,8 @@
     "ages": "Ages 4 through 5th grade",
     "costLabel": "Cost",
     "costValue": "Free — everyone welcome",
-    "registerUrl": "mailto:info@fbcrisingsun.example?subject=VBS%20Registration",
-    "registerLabel": "Register / Ask a Question"
+    "registerUrl": "/VBS-Registration-Form.pdf",
+    "registerLabel": "Register"
   },
 
   "events": {

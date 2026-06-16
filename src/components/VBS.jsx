@@ -25,7 +25,7 @@ function VBS() {
         </div>
 
         <p className="cta-text" style={{ marginTop: "2.5rem" }}>
-          <a href={vbs.registerUrl} className="btn-primary">
+          <a href={vbs.registerUrl} className="btn-primary" target="_blank" rel="noopener noreferrer">
             {vbs.registerLabel}
           </a>
         </p>
